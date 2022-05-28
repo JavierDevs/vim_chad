@@ -20,7 +20,7 @@ Is a discord bot dedicated to the [vim](https://www.vim.org/) text editor.
   
   # Bash Users
   
-  As you can see I have created a bash script that installs [nvm](https://github.com/nvm-sh/nvm) and all the dependcies you need! Note that you should be running this after putting stuff in your `config.json` and your `.env` file!
+  As you can see I have created a bash script that installs [nvm](https://github.com/nvm-sh/nvm) and all the dependcies you need! Note that you should be running this after putting stuff in your `config.json` and your `.env` file! Before you can run this script, you need to have `npm`, `git` and `nodejs` installed!
   ```
   bash startup.sh
   ```
