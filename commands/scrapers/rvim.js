@@ -10,7 +10,7 @@ async execute(bot, messageCreate, args){
     const got = await import("got")
     let subreddit = "vim" //is a varriable so its easier to change later on
     const embed = new Discord.MessageEmbed();
-    got(`https://www.reddit.com/r/${subreddit}/random/.json`)
+    got.got(`https://www.reddit.com/r/${subreddit}/random/.json`)
         .then(response =>{
             const [list] = JSON.parse(response.body);
             const [post] = list.data.children;
