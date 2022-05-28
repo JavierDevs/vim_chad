@@ -1,5 +1,4 @@
 const Discord = require("discord.js");
-const got = require("got");
 
 module.exports = {
     name: 'r/vim',
@@ -7,7 +6,8 @@ module.exports = {
     category : 'scrapers',
     utlilistaion : 'r/vim',
     desc : 'Sends a reddit post from the r/vim subreddit',
-execute(bot, messageCreate, args){
+async execute(bot, messageCreate, args){
+    const got = await import("got")
     let subreddit = "vim" //is a varriable so its easier to change later on
     const embed = new Discord.MessageEmbed();
     got(`https://www.reddit.com/r/${subreddit}/random/.json`)
