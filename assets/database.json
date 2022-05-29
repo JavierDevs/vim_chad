@@ -1,0 +1,16 @@
+{
+    "vim":{
+        "name":"vim",
+        "website":"https://www.vim.org/",
+        "documentation":"https://www.vim.org/docs.php",
+        "news":"https://www.vim.org/news/news.php",
+        "download":"https://www.vim.org/download.php"
+    },
+    "neovim":{
+        "name":"neovim",
+        "website":"https://neovim.io/",
+        "documentation":"https://neovim.io/doc/",
+        "news":"https://neovim.io/news/",
+        "download":"https://github.com/neovim/neovim/wiki/Installing-Neovim"
+    }
+}

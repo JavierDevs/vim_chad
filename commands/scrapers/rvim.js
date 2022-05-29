@@ -3,7 +3,7 @@ const got = require("got");
 
 module.exports = {
     name: 'r/vim',
-    aliases: ['reddit'],
+    aliases: [],
     category : 'scrapers',
     utlilistaion : 'r/vim',
     desc : 'Sends a reddit post from the r/vim subreddit',
