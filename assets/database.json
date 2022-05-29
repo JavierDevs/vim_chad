@@ -12,5 +12,19 @@
         "documentation":"https://neovim.io/doc/",
         "news":"https://neovim.io/news/",
         "download":"https://github.com/neovim/neovim/wiki/Installing-Neovim"
+    },
+    "nano":{
+        "name":"nano",
+        "website":"https://www.nano-editor.org/",
+        "documentation":"https://www.nano-editor.org/docs.php",
+        "news":"https://www.nano-editor.org/news.php",
+        "download":"https://www.nano-editor.org/download.php"
+    },
+    "emacs":{
+        "name":"emacs",
+        "website":"https://www.gnu.org/software/emacs/",
+        "documentation":"https://www.gnu.org/software/emacs/documentation.html",
+        "news":"https://github.com/emacs-mirror/emacs/blob/master/etc/NEWS",
+        "download":"https://www.gnu.org/software/emacs/download.html"
     }
 }
