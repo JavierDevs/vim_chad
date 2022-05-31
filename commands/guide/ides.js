@@ -13,7 +13,7 @@ let execute = function (bot, messageCreate, args) {
             let ideList = Object.keys(db).map(x => `\`${x}\``).join(", ")
             let desclist = `IDES: ${ideList}`
             listembed.setColor("GREEN")
-            listembed.setTitle("Most popular Vim forks/Linux related IDES!")
+            listembed.setTitle("List of IDEs!")
             listembed.setDescription(desclist)
             listembed.setFooter({ text: `Requested by ${messageCreate.author.username}`, iconURL: messageCreate.author.avatarURL({ dynamic: true }) })
             listembed.setTimestamp()
