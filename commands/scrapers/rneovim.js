@@ -28,6 +28,9 @@ async execute(bot, messageCreate, args){
             embed.setFooter({text:`👍 ${postUpvotes} 💬 ${postNumComments}`});
             messageCreate.channel.send({embeds:[embed]});
         })
-        .catch(console.error);
+        .catch(()=> {
+            console.error('Post could not be sent to github!', error)
+            messageCreate.channel.send("An error occured try this command again later!")
+    });
     }
 }
