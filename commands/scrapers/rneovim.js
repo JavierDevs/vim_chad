@@ -28,6 +28,10 @@ async execute(bot, messageCreate, args){
             embed.setFooter({text:`👍 ${postUpvotes} 💬 ${postNumComments}`});
             messageCreate.channel.send({embeds:[embed]});
         })
-        .catch(console.error);
+        .catch(error => {
+        messageCreate.channel.send("Post could not be sent to Discord!")
+        console.error('Post could not be sent!:', error)
+        return
+        });
     }
 }
